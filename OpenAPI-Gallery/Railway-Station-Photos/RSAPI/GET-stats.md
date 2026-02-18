@@ -1,0 +1,1 @@
+**Overall statistic of photos with and without photos**

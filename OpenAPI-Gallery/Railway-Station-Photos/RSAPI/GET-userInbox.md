@@ -1,0 +1,1 @@
+**Query all uploads of the authorized user**

@@ -1,0 +1,1 @@
+**Get the current public inbox, stations where photos have been uploaded**

@@ -1,0 +1,1 @@
+**List of all supported countries with their configuration**

@@ -1,0 +1,1 @@
+**Query the state of photo uploads of the authorized user**

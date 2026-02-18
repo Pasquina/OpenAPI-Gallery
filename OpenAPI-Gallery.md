@@ -1,4 +1,6 @@
-## Welcome to your new Documentation Project
+## OpenAPI Demonstrations
+
+This project demonstrates OpenAPI import capabilities of Documentation Monster. The OpenAPI specifications used were obtained from publicly available OpenAPI specifications.
 
 Here are a few tips to get started:
 

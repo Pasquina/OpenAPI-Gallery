@@ -1,0 +1,1 @@
+**Import or reject an uploaded photo or a problem report from the inbox**

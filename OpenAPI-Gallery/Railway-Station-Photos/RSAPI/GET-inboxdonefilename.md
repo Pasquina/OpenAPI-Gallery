@@ -1,0 +1,1 @@
+**downloads the given photo from the done inbox**

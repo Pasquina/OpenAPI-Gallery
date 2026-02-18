@@ -1,0 +1,1 @@
+**Get a railway station of a country by its id with all its photos**

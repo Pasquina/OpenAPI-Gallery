@@ -1,0 +1,1 @@
+**List of all photographers with their number of photos taken**

@@ -1,0 +1,1 @@
+**Sends a new eMail-Verification mail**
