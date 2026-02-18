@@ -2,13 +2,9 @@
 
 This project demonstrates OpenAPI import capabilities of Documentation Monster. The OpenAPI specifications used were obtained from publicly available OpenAPI specifications.
 
-Here are a few tips to get started:
-
-* Press **ctrl-n** to create a new Topic
-* Enter text into the main text area using [Markdown formatting](https://documentationmonster.west-wind.com)
-* Use the Topic Editor on the right to enter topic data
-* Use drag and drop in the Topic tree to move topics around
-* Use the Image toolbar icon to select images from disk
-* Paste images from from the clipboard into your text
+### Caveats
+- Sources vary in content. Some have URLs for OpenAPI specifications, and others have copy and paste versions. Some don't actually have OpenAPI specifications at all. Rather they have more traditional forms of API documentation. You'll need to examine what you're getting carefully to decide what the qualitry is like.
+- Many APIs are free to access. Many others carry a cost. Some carry a rather large cost. So before building anything around a publicly available API, be sure to find out what the costs are that you may face.
+- Some API libraries on the Internet may be out of date. In other words, they may be presenting inaccurate OpenAPI information. A little preliminary work with Curl will help you uncover so-called "dead" APIs.
 
 Time to get going!
