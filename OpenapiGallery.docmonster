@@ -22,6 +22,7 @@
           "link": "OpenAPI-Gallery/Railway-Station-Photos.md",
           "displayType": "header",
           "type": "markdown",
+          "isExpanded": true,
           "updated": "2026-02-18T10:56:54.6717796-06:00",
           "classInfo": {},
           "topics": [
@@ -404,18 +405,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": "_knfi9s8g7g",
-          "parentId": "_index",
-          "title": "Spoonacular",
-          "slug": "OpenAPI-Gallery/Railway-Station-Photos/City-Bikes",
-          "link": "OpenAPI-Gallery/Railway-Station-Photos/City-Bikes.md",
-          "displayType": "header",
-          "type": "markdown",
-          "isExpanded": true,
-          "updated": "2026-02-18T11:41:32.068689-06:00",
-          "classInfo": {}
         }
       ]
     }
