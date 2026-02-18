@@ -10,7 +10,6 @@
       "link": "OpenAPI-Gallery.md",
       "displayType": "index",
       "type": "markdown",
-      "isExpanded": true,
       "updated": "2026-02-18T12:21:00.2419193-06:00",
       "classInfo": {},
       "topics": [
@@ -22,7 +21,6 @@
           "link": "OpenAPI-Gallery/Railway-Station-Photos.md",
           "displayType": "header",
           "type": "markdown",
-          "isExpanded": true,
           "updated": "2026-02-18T10:56:54.6717796-06:00",
           "classInfo": {},
           "topics": [
@@ -413,7 +411,6 @@
           "link": "OpenAPI-Gallery/Spoonacular.md",
           "displayType": "header",
           "type": "markdown",
-          "isExpanded": true,
           "updated": "2026-02-18T12:51:08.6273748-06:00",
           "classInfo": {},
           "topics": [
@@ -425,10 +422,83 @@
               "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API.md",
               "displayType": "webservice",
               "type": "markdown",
-              "isExpanded": true,
               "updated": "2026-02-18T12:45:14.6774331-06:00",
               "classInfo": {},
               "topics": [
+                {
+                  "id": "_co79iurn0g",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "GET /mealplanner/{username}/templates/{id}",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/GET-mealplannerusernametemplatesid",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/GET-mealplannerusernametemplatesid.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/mealplanner/{username}/templates/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"days\":    [\r\n      {\r\n         \"day\": \"string\",\r\n         \"items\":          [\r\n            {\r\n               \"id\": 0,\r\n               \"position\": 0,\r\n               \"slot\": 0,\r\n               \"type\": \"string\",\r\n               \"value\":                {\r\n                  \"id\": 0,\r\n                  \"imageType\": \"string\",\r\n                  \"title\": \"string\",\r\n               },\r\n            },\r\n         ],\r\n         \"nutritionSummary\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n         \"nutritionSummaryBreakfast\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n         \"nutritionSummaryDinner\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n         \"nutritionSummaryLunch\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n      },\r\n   ],\r\n   \"id\": 0,\r\n   \"name\": \"string\",\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "sortOrder": 10,
+                  "updated": "2026-02-18T12:45:14.7193417-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_ne4eeugy8s",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /mealplanner/{username}/templates",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernametemplates",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernametemplates.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/templates\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"items\":    [\r\n      {\r\n         \"day\": 0,\r\n         \"position\": 0,\r\n         \"slot\": 0,\r\n         \"type\": \"string\",\r\n         \"value\":          {\r\n            \"id\": 0,\r\n            \"imageType\": \"string\",\r\n            \"servings\": 0,\r\n            \"title\": \"string\",\r\n         },\r\n      },\r\n   ],\r\n   \"name\": \"string\",\r\n   \"publishAsPublic\": false,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "sortOrder": 10,
+                  "updated": "2026-02-18T12:45:14.7179989-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_kcdnsvbo5k",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "DELETE /mealplanner/{username}/day/{date}",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernamedaydate",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernamedaydate.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/day/{date}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7117802-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_jvhxmu4eap",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "DELETE /mealplanner/{username}/items/{id}",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameitemsid",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameitemsid.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/items/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7129981-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_032afd48hp",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "DELETE /mealplanner/{username}/shopping-list/items/{id}",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameshopping-listitemsid",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameshopping-listitemsid.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/shopping-list/items/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7168274-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_fhandvx2bx",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "DELETE /mealplanner/{username}/templates/{id}",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernametemplatesid",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernametemplatesid.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/templates/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7186045-06:00",
+                  "classInfo": {}
+                },
                 {
                   "id": "_yno3o6ud6i",
                   "parentId": "_ef2b0nn69t",
@@ -463,18 +533,6 @@
                   "type": "markdown",
                   "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/food/customFoods/search\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"customFoods\":    [\r\n      {\r\n         \"id\": 0,\r\n         \"imageUrl\": \"string\",\r\n         \"price\": 0,\r\n         \"servings\": 0,\r\n         \"title\": \"string\",\r\n      },\r\n   ],\r\n   \"number\": 0,\r\n   \"offset\": 0,\r\n   \"type\": \"string\",\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
                   "updated": "2026-02-18T12:45:14.6853231-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_ifp9ovs46d",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /food/detect",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-fooddetect",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-fooddetect.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/detect\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"annotations\":    [\r\n      {\r\n         \"annotation\": \"string\",\r\n         \"image\": \"string\",\r\n         \"tag\": \"string\",\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.6861655-06:00",
                   "classInfo": {}
                 },
                 {
@@ -547,30 +605,6 @@
                   "type": "markdown",
                   "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/food/ingredients/autocomplete\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"aisle\": \"string\",\r\n      \"id\": 0,\r\n      \"image\": \"string\",\r\n      \"name\": \"string\",\r\n      \"possibleUnits\":       [\r\n         {\r\n         },\r\n      ],\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
                   "updated": "2026-02-18T12:45:14.6894713-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_pfwwn1mb79",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /food/ingredients/glycemicLoad",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsglycemicLoad",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsglycemicLoad.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/ingredients/glycemicLoad\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n      },\r\n   ],\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n         \"glycemicIndex\": 0,\r\n         \"glycemicLoad\": 0,\r\n         \"id\": 0,\r\n         \"original\": \"string\",\r\n      },\r\n   ],\r\n   \"totalGlycemicLoad\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.6900534-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_54d80cncf1",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /food/ingredients/map",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsmap",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsmap.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/ingredients/map\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n      },\r\n   ],\r\n   \"servings\": 0,\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"ingredientImage\": \"string\",\r\n      \"meta\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"original\": \"string\",\r\n      \"originalName\": \"string\",\r\n      \"products\":       [\r\n         {\r\n            \"id\": 0,\r\n            \"title\": \"string\",\r\n            \"upc\": \"string\",\r\n         },\r\n      ],\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.6907214-06:00",
                   "classInfo": {}
                 },
                 {
@@ -754,30 +788,6 @@
                   "classInfo": {}
                 },
                 {
-                  "id": "_fgbughxnee",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /food/products/classify",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassify",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassify.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/products/classify\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"plu_code\": \"string\",\r\n   \"title\": \"string\",\r\n   \"upc\": \"string\",\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"breadcrumbs\":    [\r\n      {\r\n      },\r\n   ],\r\n   \"category\": \"string\",\r\n   \"cleanTitle\": \"string\",\r\n   \"image\": \"string\",\r\n   \"usdaCode\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7012209-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_cdwgfhe35o",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /food/products/classifyBatch",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassifyBatch",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassifyBatch.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/products/classifyBatch\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n[\r\n   {\r\n      \"plu_code\": \"string\",\r\n      \"title\": \"string\",\r\n      \"upc\": \"string\",\r\n   },\r\n]\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"breadcrumbs\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"category\": \"string\",\r\n      \"cleanTitle\": \"string\",\r\n      \"image\": \"string\",\r\n      \"usdaCode\": 0,\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.70177-06:00",
-                  "classInfo": {}
-                },
-                {
                   "id": "_2z4hko8f8b",
                   "parentId": "_ef2b0nn69t",
                   "title": "GET /food/products/search",
@@ -934,42 +944,6 @@
                   "classInfo": {}
                 },
                 {
-                  "id": "_kcdnsvbo5k",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "DELETE /mealplanner/{username}/day/{date}",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernamedaydate",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernamedaydate.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/day/{date}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7117802-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_6dzdd4qg0s",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /mealplanner/{username}/items",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameitems",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameitems.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/items\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"date\": 0,\r\n   \"position\": 0,\r\n   \"slot\": 0,\r\n   \"type\": \"string\",\r\n   \"value\":    {\r\n      \"ingredients\":       [\r\n         {\r\n            \"name\": \"string\",\r\n         },\r\n      ],\r\n   },\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7123358-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_jvhxmu4eap",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "DELETE /mealplanner/{username}/items/{id}",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameitemsid",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameitemsid.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/items/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7129981-06:00",
-                  "classInfo": {}
-                },
-                {
                   "id": "_9h53dwffef",
                   "parentId": "_ef2b0nn69t",
                   "title": "GET /mealplanner/{username}/shopping-list",
@@ -982,42 +956,6 @@
                   "classInfo": {}
                 },
                 {
-                  "id": "_1635w5wjfo",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /mealplanner/{username}/shopping-list/{start-date}/{end-date}",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-liststart-dateend-date",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-liststart-dateend-date.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/shopping-list/{start-date}/{end-date}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"aisles\":    [\r\n      {\r\n         \"aisle\": \"string\",\r\n         \"items\":          [\r\n            {\r\n               \"aisle\": \"string\",\r\n               \"cost\": 0,\r\n               \"id\": 0,\r\n               \"ingredientId\": 0,\r\n               \"measures\":                {\r\n                  \"metric\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"original\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"us\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n               },\r\n               \"name\": \"string\",\r\n               \"pantryItem\": false,\r\n            },\r\n         ],\r\n      },\r\n   ],\r\n   \"cost\": 0,\r\n   \"endDate\": 0,\r\n   \"startDate\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7150866-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_nukvsuira8",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /mealplanner/{username}/shopping-list/items",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-listitems",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-listitems.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/shopping-list/items\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"aisle\": \"string\",\r\n   \"item\": \"string\",\r\n   \"parse\": false,\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"aisles\":    [\r\n      {\r\n         \"aisle\": \"string\",\r\n         \"items\":          [\r\n            {\r\n               \"aisle\": \"string\",\r\n               \"cost\": 0,\r\n               \"id\": 0,\r\n               \"ingredientId\": 0,\r\n               \"measures\":                {\r\n                  \"metric\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"original\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"us\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n               },\r\n               \"name\": \"string\",\r\n               \"pantryItem\": false,\r\n            },\r\n         ],\r\n      },\r\n   ],\r\n   \"cost\": 0,\r\n   \"endDate\": 0,\r\n   \"startDate\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7160546-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_032afd48hp",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "DELETE /mealplanner/{username}/shopping-list/items/{id}",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameshopping-listitemsid",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernameshopping-listitemsid.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/shopping-list/items/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7168274-06:00",
-                  "classInfo": {}
-                },
-                {
                   "id": "_b7tsrriv7p",
                   "parentId": "_ef2b0nn69t",
                   "title": "GET /mealplanner/{username}/templates",
@@ -1027,44 +965,6 @@
                   "type": "markdown",
                   "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/mealplanner/{username}/templates\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"templates\":    [\r\n      {\r\n         \"id\": 0,\r\n         \"name\": \"string\",\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
                   "updated": "2026-02-18T12:45:14.7174184-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_ne4eeugy8s",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /mealplanner/{username}/templates",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernametemplates",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernametemplates.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/templates\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"items\":    [\r\n      {\r\n         \"day\": 0,\r\n         \"position\": 0,\r\n         \"slot\": 0,\r\n         \"type\": \"string\",\r\n         \"value\":          {\r\n            \"id\": 0,\r\n            \"imageType\": \"string\",\r\n            \"servings\": 0,\r\n            \"title\": \"string\",\r\n         },\r\n      },\r\n   ],\r\n   \"name\": \"string\",\r\n   \"publishAsPublic\": false,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "sortOrder": 10,
-                  "updated": "2026-02-18T12:45:14.7179989-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_fhandvx2bx",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "DELETE /mealplanner/{username}/templates/{id}",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernametemplatesid",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/DELETE-mealplannerusernametemplatesid.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nDELETE https://api.spoonacular.com/mealplanner/{username}/templates/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7186045-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_co79iurn0g",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "GET /mealplanner/{username}/templates/{id}",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/GET-mealplannerusernametemplatesid",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/GET-mealplannerusernametemplatesid.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/mealplanner/{username}/templates/{id}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"days\":    [\r\n      {\r\n         \"day\": \"string\",\r\n         \"items\":          [\r\n            {\r\n               \"id\": 0,\r\n               \"position\": 0,\r\n               \"slot\": 0,\r\n               \"type\": \"string\",\r\n               \"value\":                {\r\n                  \"id\": 0,\r\n                  \"imageType\": \"string\",\r\n                  \"title\": \"string\",\r\n               },\r\n            },\r\n         ],\r\n         \"nutritionSummary\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n         \"nutritionSummaryBreakfast\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n         \"nutritionSummaryDinner\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n         \"nutritionSummaryLunch\":          {\r\n            \"nutrients\":             [\r\n               {\r\n                  \"amount\": 0,\r\n                  \"name\": \"string\",\r\n                  \"percentDailyNeeds\": 0,\r\n                  \"unit\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n      },\r\n   ],\r\n   \"id\": 0,\r\n   \"name\": \"string\",\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "sortOrder": 10,
-                  "updated": "2026-02-18T12:45:14.7193417-06:00",
                   "classInfo": {}
                 },
                 {
@@ -1356,30 +1256,6 @@
                   "classInfo": {}
                 },
                 {
-                  "id": "_i74cjtokcg",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /recipes/analyze",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyze",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyze.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/analyze\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n      },\r\n   ],\r\n   \"instructions\": \"string\",\r\n   \"servings\": 0,\r\n   \"title\": \"string\",\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7347779-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_e8q7nf0xe7",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /recipes/analyzeInstructions",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyzeInstructions",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyzeInstructions.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/analyzeInstructions\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"equipment\":    [\r\n      {\r\n         \"id\": 0,\r\n         \"name\": \"string\",\r\n      },\r\n   ],\r\n   \"ingredients\":    [\r\n      {\r\n         \"id\": 0,\r\n         \"name\": \"string\",\r\n      },\r\n   ],\r\n   \"parsedInstructions\":    [\r\n      {\r\n         \"name\": \"string\",\r\n         \"steps\":          [\r\n            {\r\n               \"equipment\":                [\r\n                  {\r\n                     \"id\": 0,\r\n                     \"image\": \"string\",\r\n                     \"localizedName\": \"string\",\r\n                     \"name\": \"string\",\r\n                  },\r\n               ],\r\n               \"ingredients\":                [\r\n                  {\r\n                     \"id\": 0,\r\n                     \"image\": \"string\",\r\n                     \"localizedName\": \"string\",\r\n                     \"name\": \"string\",\r\n                  },\r\n               ],\r\n               \"number\": 0,\r\n               \"step\": \"string\",\r\n            },\r\n         ],\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7352612-06:00",
-                  "classInfo": {}
-                },
-                {
                   "id": "_cxja2hjnhw",
                   "parentId": "_ef2b0nn69t",
                   "title": "GET /recipes/autocomplete",
@@ -1413,18 +1289,6 @@
                   "type": "markdown",
                   "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/recipes/convert\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"answer\": \"string\",\r\n   \"sourceAmount\": 0,\r\n   \"sourceUnit\": \"string\",\r\n   \"targetAmount\": 0,\r\n   \"targetUnit\": \"string\",\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
                   "updated": "2026-02-18T12:45:14.7367159-06:00",
-                  "classInfo": {}
-                },
-                {
-                  "id": "_jg8tc00n5o",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /recipes/cuisine",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipescuisine",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipescuisine.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/cuisine\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"confidence\": 0,\r\n   \"cuisine\": \"string\",\r\n   \"cuisines\":    [\r\n      {\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7371773-06:00",
                   "classInfo": {}
                 },
                 {
@@ -1488,18 +1352,6 @@
                   "classInfo": {}
                 },
                 {
-                  "id": "_u4p4k0ph5f",
-                  "parentId": "_ef2b0nn69t",
-                  "title": "POST /recipes/parseIngredients",
-                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesparseIngredients",
-                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesparseIngredients.md",
-                  "displayType": "webserviceendpoint",
-                  "type": "markdown",
-                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/parseIngredients\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"aisle\": \"string\",\r\n      \"amount\": 0,\r\n      \"consistency\": \"string\",\r\n      \"estimatedCost\":       {\r\n         \"unit\": \"string\",\r\n         \"value\": 0,\r\n      },\r\n      \"id\": 0,\r\n      \"image\": \"string\",\r\n      \"meta\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"name\": \"string\",\r\n      \"nameClean\": \"string\",\r\n      \"nutrition\":       {\r\n         \"caloricBreakdown\":          {\r\n            \"percentCarbs\": 0,\r\n            \"percentFat\": 0,\r\n            \"percentProtein\": 0,\r\n         },\r\n         \"flavonoids\":          [\r\n            {\r\n               \"amount\": 0,\r\n               \"name\": \"string\",\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"nutrients\":          [\r\n            {\r\n               \"amount\": 0,\r\n               \"name\": \"string\",\r\n               \"percentOfDailyNeeds\": 0,\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"properties\":          [\r\n            {\r\n               \"amount\": 0,\r\n               \"name\": \"string\",\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"weightPerServing\":          {\r\n            \"amount\": 0,\r\n            \"unit\": \"string\",\r\n         },\r\n      },\r\n      \"original\": \"string\",\r\n      \"originalName\": \"string\",\r\n      \"possibleUnits\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"unit\": \"string\",\r\n      \"unitLong\": \"string\",\r\n      \"unitShort\": \"string\",\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7404426-06:00",
-                  "classInfo": {}
-                },
-                {
                   "id": "_vjp6u5y19h",
                   "parentId": "_ef2b0nn69t",
                   "title": "GET /recipes/queries/analyze",
@@ -1533,6 +1385,150 @@
                   "type": "markdown",
                   "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nGET https://api.spoonacular.com/recipes/random\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"recipes\":    [\r\n      {\r\n         \"aggregateLikes\": 0,\r\n         \"analyzedInstructions\":          [\r\n            {\r\n            },\r\n         ],\r\n         \"cheap\": false,\r\n         \"creditsText\": \"string\",\r\n         \"cuisines\":          [\r\n            {\r\n            },\r\n         ],\r\n         \"dairyFree\": false,\r\n         \"diets\":          [\r\n            {\r\n            },\r\n         ],\r\n         \"dishTypes\":          [\r\n            {\r\n            },\r\n         ],\r\n         \"extendedIngredients\":          [\r\n            {\r\n               \"aisle\": \"string\",\r\n               \"amount\": 0,\r\n               \"consitency\": \"string\",\r\n               \"id\": 0,\r\n               \"image\": \"string\",\r\n               \"measures\":                {\r\n                  \"metric\":                   {\r\n                     \"amount\": 0,\r\n                     \"unitLong\": \"string\",\r\n                     \"unitShort\": \"string\",\r\n                  },\r\n                  \"us\":                   {\r\n                     \"amount\": 0,\r\n                     \"unitLong\": \"string\",\r\n                     \"unitShort\": \"string\",\r\n                  },\r\n               },\r\n               \"meta\":                [\r\n                  {\r\n                  },\r\n               ],\r\n               \"name\": \"string\",\r\n               \"original\": \"string\",\r\n               \"originalName\": \"string\",\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"gaps\": \"string\",\r\n         \"glutenFree\": false,\r\n         \"healthScore\": 0,\r\n         \"id\": 0,\r\n         \"image\": \"string\",\r\n         \"imageType\": \"string\",\r\n         \"instructions\": \"string\",\r\n         \"ketogenic\": false,\r\n         \"license\": \"string\",\r\n         \"lowFodmap\": false,\r\n         \"occasions\":          [\r\n            {\r\n            },\r\n         ],\r\n         \"pricePerServing\": 0,\r\n         \"readyInMinutes\": 0,\r\n         \"servings\": 0,\r\n         \"sourceName\": \"string\",\r\n         \"sourceUrl\": \"string\",\r\n         \"spoonacularScore\": 0,\r\n         \"spoonacularSourceUrl\": \"string\",\r\n         \"summary\": \"string\",\r\n         \"sustainable\": false,\r\n         \"title\": \"string\",\r\n         \"vegan\": false,\r\n         \"vegetarian\": false,\r\n         \"veryHealthy\": false,\r\n         \"veryPopular\": false,\r\n         \"weightWatcherSmartPoints\": 0,\r\n         \"whole30\": false,\r\n         \"winePairing\":          {\r\n            \"pairedWines\":             [\r\n               {\r\n               },\r\n            ],\r\n            \"pairingText\": \"string\",\r\n            \"productMatches\":             [\r\n               {\r\n                  \"averageRating\": 0,\r\n                  \"description\": \"string\",\r\n                  \"id\": 0,\r\n                  \"imageUrl\": \"string\",\r\n                  \"link\": \"string\",\r\n                  \"price\": \"string\",\r\n                  \"ratingCount\": 0,\r\n                  \"score\": 0,\r\n                  \"title\": \"string\",\r\n               },\r\n            ],\r\n         },\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
                   "updated": "2026-02-18T12:45:14.7420057-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_ifp9ovs46d",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /food/detect",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-fooddetect",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-fooddetect.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/detect\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"annotations\":    [\r\n      {\r\n         \"annotation\": \"string\",\r\n         \"image\": \"string\",\r\n         \"tag\": \"string\",\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.6861655-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_pfwwn1mb79",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /food/ingredients/glycemicLoad",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsglycemicLoad",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsglycemicLoad.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/ingredients/glycemicLoad\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n      },\r\n   ],\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n         \"glycemicIndex\": 0,\r\n         \"glycemicLoad\": 0,\r\n         \"id\": 0,\r\n         \"original\": \"string\",\r\n      },\r\n   ],\r\n   \"totalGlycemicLoad\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.6900534-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_54d80cncf1",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /food/ingredients/map",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsmap",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodingredientsmap.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/ingredients/map\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n      },\r\n   ],\r\n   \"servings\": 0,\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"ingredientImage\": \"string\",\r\n      \"meta\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"original\": \"string\",\r\n      \"originalName\": \"string\",\r\n      \"products\":       [\r\n         {\r\n            \"id\": 0,\r\n            \"title\": \"string\",\r\n            \"upc\": \"string\",\r\n         },\r\n      ],\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.6907214-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_fgbughxnee",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /food/products/classify",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassify",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassify.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/products/classify\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"plu_code\": \"string\",\r\n   \"title\": \"string\",\r\n   \"upc\": \"string\",\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"breadcrumbs\":    [\r\n      {\r\n      },\r\n   ],\r\n   \"category\": \"string\",\r\n   \"cleanTitle\": \"string\",\r\n   \"image\": \"string\",\r\n   \"usdaCode\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7012209-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_cdwgfhe35o",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /food/products/classifyBatch",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassifyBatch",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-foodproductsclassifyBatch.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/food/products/classifyBatch\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n[\r\n   {\r\n      \"plu_code\": \"string\",\r\n      \"title\": \"string\",\r\n      \"upc\": \"string\",\r\n   },\r\n]\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"breadcrumbs\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"category\": \"string\",\r\n      \"cleanTitle\": \"string\",\r\n      \"image\": \"string\",\r\n      \"usdaCode\": 0,\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.70177-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_6dzdd4qg0s",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /mealplanner/{username}/items",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameitems",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameitems.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/items\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"date\": 0,\r\n   \"position\": 0,\r\n   \"slot\": 0,\r\n   \"type\": \"string\",\r\n   \"value\":    {\r\n      \"ingredients\":       [\r\n         {\r\n            \"name\": \"string\",\r\n         },\r\n      ],\r\n   },\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7123358-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_1635w5wjfo",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /mealplanner/{username}/shopping-list/{start-date}/{end-date}",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-liststart-dateend-date",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-liststart-dateend-date.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/shopping-list/{start-date}/{end-date}\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"aisles\":    [\r\n      {\r\n         \"aisle\": \"string\",\r\n         \"items\":          [\r\n            {\r\n               \"aisle\": \"string\",\r\n               \"cost\": 0,\r\n               \"id\": 0,\r\n               \"ingredientId\": 0,\r\n               \"measures\":                {\r\n                  \"metric\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"original\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"us\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n               },\r\n               \"name\": \"string\",\r\n               \"pantryItem\": false,\r\n            },\r\n         ],\r\n      },\r\n   ],\r\n   \"cost\": 0,\r\n   \"endDate\": 0,\r\n   \"startDate\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7150866-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_nukvsuira8",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /mealplanner/{username}/shopping-list/items",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-listitems",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-mealplannerusernameshopping-listitems.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/mealplanner/{username}/shopping-list/items\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"aisle\": \"string\",\r\n   \"item\": \"string\",\r\n   \"parse\": false,\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"aisles\":    [\r\n      {\r\n         \"aisle\": \"string\",\r\n         \"items\":          [\r\n            {\r\n               \"aisle\": \"string\",\r\n               \"cost\": 0,\r\n               \"id\": 0,\r\n               \"ingredientId\": 0,\r\n               \"measures\":                {\r\n                  \"metric\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"original\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n                  \"us\":                   {\r\n                     \"amount\": 0,\r\n                     \"unit\": \"string\",\r\n                  },\r\n               },\r\n               \"name\": \"string\",\r\n               \"pantryItem\": false,\r\n            },\r\n         ],\r\n      },\r\n   ],\r\n   \"cost\": 0,\r\n   \"endDate\": 0,\r\n   \"startDate\": 0,\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7160546-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_i74cjtokcg",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /recipes/analyze",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyze",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyze.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/analyze\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"ingredients\":    [\r\n      {\r\n      },\r\n   ],\r\n   \"instructions\": \"string\",\r\n   \"servings\": 0,\r\n   \"title\": \"string\",\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7347779-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_e8q7nf0xe7",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /recipes/analyzeInstructions",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyzeInstructions",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesanalyzeInstructions.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/analyzeInstructions\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"equipment\":    [\r\n      {\r\n         \"id\": 0,\r\n         \"name\": \"string\",\r\n      },\r\n   ],\r\n   \"ingredients\":    [\r\n      {\r\n         \"id\": 0,\r\n         \"name\": \"string\",\r\n      },\r\n   ],\r\n   \"parsedInstructions\":    [\r\n      {\r\n         \"name\": \"string\",\r\n         \"steps\":          [\r\n            {\r\n               \"equipment\":                [\r\n                  {\r\n                     \"id\": 0,\r\n                     \"image\": \"string\",\r\n                     \"localizedName\": \"string\",\r\n                     \"name\": \"string\",\r\n                  },\r\n               ],\r\n               \"ingredients\":                [\r\n                  {\r\n                     \"id\": 0,\r\n                     \"image\": \"string\",\r\n                     \"localizedName\": \"string\",\r\n                     \"name\": \"string\",\r\n                  },\r\n               ],\r\n               \"number\": 0,\r\n               \"step\": \"string\",\r\n            },\r\n         ],\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7352612-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_jg8tc00n5o",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /recipes/cuisine",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipescuisine",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipescuisine.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/cuisine\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"confidence\": 0,\r\n   \"cuisine\": \"string\",\r\n   \"cuisines\":    [\r\n      {\r\n      },\r\n   ],\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7371773-06:00",
+                  "classInfo": {}
+                },
+                {
+                  "id": "_u4p4k0ph5f",
+                  "parentId": "_ef2b0nn69t",
+                  "title": "POST /recipes/parseIngredients",
+                  "slug": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesparseIngredients",
+                  "link": "OpenAPI-Gallery/Spoonacular/spoonacular-API/POST-recipesparseIngredients.md",
+                  "displayType": "webserviceendpoint",
+                  "type": "markdown",
+                  "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/recipes/parseIngredients\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n[\r\n   {\r\n      \"aisle\": \"string\",\r\n      \"amount\": 0,\r\n      \"consistency\": \"string\",\r\n      \"estimatedCost\":       {\r\n         \"unit\": \"string\",\r\n         \"value\": 0,\r\n      },\r\n      \"id\": 0,\r\n      \"image\": \"string\",\r\n      \"meta\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"name\": \"string\",\r\n      \"nameClean\": \"string\",\r\n      \"nutrition\":       {\r\n         \"caloricBreakdown\":          {\r\n            \"percentCarbs\": 0,\r\n            \"percentFat\": 0,\r\n            \"percentProtein\": 0,\r\n         },\r\n         \"flavonoids\":          [\r\n            {\r\n               \"amount\": 0,\r\n               \"name\": \"string\",\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"nutrients\":          [\r\n            {\r\n               \"amount\": 0,\r\n               \"name\": \"string\",\r\n               \"percentOfDailyNeeds\": 0,\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"properties\":          [\r\n            {\r\n               \"amount\": 0,\r\n               \"name\": \"string\",\r\n               \"unit\": \"string\",\r\n            },\r\n         ],\r\n         \"weightPerServing\":          {\r\n            \"amount\": 0,\r\n            \"unit\": \"string\",\r\n         },\r\n      },\r\n      \"original\": \"string\",\r\n      \"originalName\": \"string\",\r\n      \"possibleUnits\":       [\r\n         {\r\n         },\r\n      ],\r\n      \"unit\": \"string\",\r\n      \"unitLong\": \"string\",\r\n      \"unitShort\": \"string\",\r\n   },\r\n]\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
+                  "updated": "2026-02-18T12:45:14.7404426-06:00",
                   "classInfo": {}
                 },
                 {
@@ -1616,7 +1612,7 @@
                   "displayType": "webserviceendpoint",
                   "type": "markdown",
                   "example": "#### @icon-duotone-cloud-arrow-up Request Headers\n\r\n```http\r\nPOST https://api.spoonacular.com/users/connect\r\nAccept: application/json\r\n```\n\r\n#### @icon-duotone-upload Request Content\r\n```json\r\n{\r\n   \"email\": \"string\",\r\n   \"firstName\": \"string\",\r\n   \"lastName\": \"string\",\r\n   \"username\": \"string\",\r\n}\r\n```\n\r\n#### @icon-duotone-cloud-arrow-down HTTP Response\r\n\n##### HTTP 200{.text-success .bold}\r\nSuccess\r\n```json\r\n{\r\n   \"hash\": \"string\",\r\n   \"username\": \"string\",\r\n}\r\n```\r\n\n##### HTTP 401{.text-warning .bold}\r\nUnauthorized\r\n\n##### HTTP 403{.text-warning .bold}\r\nForbidden\r\n\n##### HTTP 404{.text-warning .bold}\r\nNot Found",
-                  "updated": "2026-02-18T12:45:14.7454512-06:00",
+                  "updated": "2026-02-18T12:54:04.2212649-06:00",
                   "classInfo": {}
                 }
               ]
